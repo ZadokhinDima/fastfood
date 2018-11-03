@@ -23,7 +23,7 @@ public class ConsoleInteractionService {
     }
 
     private static class HOLDER {
-        static ConsoleInteractionService INSTANCE = new ConsoleInteractionService();
+        private final static ConsoleInteractionService INSTANCE = new ConsoleInteractionService();
     }
 
 
